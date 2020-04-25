@@ -1,14 +1,27 @@
 <template>
-  <Layout>
-    <h1 class="w3-right-align about-class">About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
-  </Layout>
+  <div class="about-wrapper">
+    <div class="w3-container w3-theme-d3 w3-mobile about-section">
+      <div class="w3-container w3-mobile about-main">
+        <h2>About me</h2>
+      </div>
+    </div>
+    <VerticalLeftBar />
+    <VerticalRightBar />
+  </div>
 </template>
 
 <script>
+import AboutMe from "../components/AboutMe";
+import VerticalLeftBar from "../components/VerticalLeftBar";
+import VerticalRightBar from "../components/VerticalRightBar";
 export default {
   metaInfo: {
-    title: 'About us'
-  }
-}
+    title: "About Me",
+  },
+  components: {
+    AboutMe,
+    VerticalLeftBar,
+    VerticalRightBar,
+  },
+};
 </script>

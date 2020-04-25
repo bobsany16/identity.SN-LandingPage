@@ -1,12 +1,7 @@
 <template>
   <div class="w3-mobile layout">
     <NavBar />
-    <transition name="fade" appear>
-      <main class="wrapper">
-        <slot />
-      </main>
-    </transition>
-    <Footer />
+    <slot />
   </div>
 </template>
 
