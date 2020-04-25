@@ -1,17 +1,12 @@
 <template>
   <div class="w3-mobile layout">
-    <header class="header w3-theme-d2">
-      <strong>
-        <g-link to="/">Linh Nguyen</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link w3-hover-text-theme" to="/">Home</g-link>
-        <g-link class="nav__link w3-hover-text-theme" to="/">About</g-link>
-        <g-link class="nav__link w3-hover-text-theme" to="/About">Projects</g-link>
-        <g-link class="nav__link w3-hover-text-theme" to="/">Contact</g-link>
-      </nav>
-    </header>
-    <slot/>
+    <NavBar />
+    <transition name="fade" appear>
+      <main class="wrapper">
+        <slot />
+      </main>
+    </transition>
+    <Footer />
   </div>
 </template>
 
@@ -23,3 +18,13 @@ query {
 }
 </static-query>
 
+<script>
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+export default {
+  components: {
+    NavBar,
+    Footer,
+  },
+};
+</script>
