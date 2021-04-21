@@ -127,7 +127,7 @@ body {
 }
 
 .subtitle {
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
 }
 .wrapper {
   width: 100%;
@@ -230,7 +230,7 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  background-color: #fc4445;
+  /* background-color: #fc4445; */
 }
 
 .porject-wrapper {
@@ -252,14 +252,14 @@ body {
   font-weight: 900;
   font-size: 5em;
   margin-bottom: 0;
-  letter-spacing: 5px;
-  text-shadow: 2px 2px 2px #3feee6;
+  /* letter-spacing: 5px; */
+  /* text-shadow: 2px 2px 2px #3feee6; */
   text-align: left;
 }
 
 .about-main p {
   font-size: 1.5em;
-  letter-spacing: 5px;
+  /* letter-spacing: 5px; */
 }
 
 #About,
@@ -295,7 +295,7 @@ body {
   font-weight: 900;
   font-size: 10em;
   margin-bottom: 0;
-  letter-spacing: 7px;
+  /* letter-spacing: 7px; */
   text-shadow: 4px 2px 0px white;
   text-align: center;
 }
@@ -389,7 +389,7 @@ body {
 .proj_desc {
   margin-left: 6em;
   margin-right: 6em;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
 }
 
 @media only screen and (max-width: 768px) {

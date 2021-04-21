@@ -4,7 +4,7 @@
     <h1><em>I'M LINH</em></h1>
 
     <div class="subtitle w3-mobile">
-      <p>Software Developer, <b>LGBTQ+</b> Advocate, and Orchid Enthusiast</p>
+      <p>Software Developer, Open-Source contributor</p>
     </div>
     <ContactsIcon />
   </div>

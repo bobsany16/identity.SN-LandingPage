@@ -1,6 +1,6 @@
 <template>
   <Layout :resume_page="true">
-    <pdf class="resume_section" src="./Nguyen_Resume.pdf"></pdf>
+    <pdf class="resume_section" src="./Resume.pdf"></pdf>
   </Layout>
 </template>
 
